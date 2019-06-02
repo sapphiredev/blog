@@ -1,0 +1,76 @@
+.article_border {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .article_border_line {
+    width: 100%;
+    border-top: 2px solid #7f7f7f; }
+
+.article {
+  padding: 24px 0; }
+  .article_metadata {
+    display: flex; }
+  .article_date {
+    margin-right: 12px; }
+  .article_tags > a {
+    margin-right: 4px; }
+  .article_title a {
+    color: black;
+    font-weight: bold;
+    font-size: 48px; }
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-top: 1px solid black; }
+  #footer_section_a {
+    display: flex;
+    align-items: top; }
+    #footer_section_a > p {
+      margin-right: 4px; }
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid black; }
+  #header_section_a a {
+    margin-right: 12px; }
+  #header_section_b a {
+    margin-left: 12px; }
+  #header a {
+    color: #3f3f3f;
+    font-weight: bold;
+    font-size: 24px; }
+
+
+html {
+  font-family: 'Lato', sans-serif; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+p {
+  margin: 0; }
+
+a {
+  color: #417ceb;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-size: 100% 100%; }
+  .icon_github {
+    background-image: url(ef7a02b69836dc8b6a732a54c4200dcb.png); }
+
+#app {
+  max-width: 720px;
+  margin: 0 auto;
+  background-color: white; }
+
